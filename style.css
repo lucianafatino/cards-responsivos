@@ -54,6 +54,8 @@ main.cards section.card h3{
 main.cards section.card span{
     font-weight: 300;
     max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
 }
 
 main.cards section.card button{

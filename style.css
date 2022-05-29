@@ -47,6 +47,15 @@ main.cards section.card img{
     width: 100%;
 }
 
+main.cards section.card h3{
+    margin: 16px 0;
+}
+
+main.cards section.card span{
+    font-weight: 300;
+    max-width: 240px;
+}
+
 main.cards section.card button{
     padding: 0.5rem 1rem;
     text-transform: uppercase;
@@ -63,9 +72,21 @@ main.cards section.card.contact button{
 }
 
 main.cards section.card.shop button{
-    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
 }
 
 main.cards section.card.about button{
-    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+    background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+}
+
+main.cards section.card.contact{
+    box-shadow: 20px 20px 50px 3px #DBC4FF;
+}
+
+main.cards section.card.shop{
+    box-shadow: 20px 20px 50px 3px #AFD6FF;
+}
+
+main.cards section.card.about{
+    box-shadow: 20px 20px 50px 3px #FFC1B5;
 }

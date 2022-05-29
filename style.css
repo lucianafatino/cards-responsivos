@@ -93,3 +93,25 @@ main.cards section.card.shop{
 main.cards section.card.about{
     box-shadow: 20px 20px 50px 3px #FFC1B5;
 }
+
+@media screen and (max-width: 720px) {
+    main.cards{
+        flex-direction: column;
+    }
+
+    main.cards section.card{
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:first-child{
+        margin-top: 220px;
+    }
+
+    main.cards section.card:last-child{
+        margin-bottom: 0;
+    }
+    main.cards section.card button{
+        font-size: 70%;
+    }
+}

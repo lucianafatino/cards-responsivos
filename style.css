@@ -22,6 +22,22 @@ main.cards{
     padding: 32px;
 }
 
+main.cards section.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 256px;
+    margin-left: 32px;
+}
+
+main.cards section.card:first-child{
+    margin-left: 0;
+}
+
 main.cards section.card .icon{
     width: 64px;
     height: 64px;
@@ -30,3 +46,4 @@ main.cards section.card .icon{
 main.cards section.card img{
     width: 100%;
 }
+

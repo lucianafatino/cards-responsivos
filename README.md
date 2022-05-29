@@ -1,0 +1,1 @@
+Exercício proposto por Giovanna Moeller, através de seu canal Girl Coding, onde buscou-se construir cards responsivos. Foram usados conceitos de HTML5, CSS3 e Flexbox.

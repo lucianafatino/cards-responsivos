@@ -47,3 +47,12 @@ main.cards section.card img{
     width: 100%;
 }
 
+main.cards section.card button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+}

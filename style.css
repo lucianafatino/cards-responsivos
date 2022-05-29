@@ -55,4 +55,17 @@ main.cards section.card button{
     cursor: pointer;
     font-size: 80%;
     font-weight: 500;
+    color: #FFF;
+}
+
+main.cards section.card.contact button{
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+
+main.cards section.card.shop button{
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+
+main.cards section.card.about button{
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
 }

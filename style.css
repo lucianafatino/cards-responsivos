@@ -48,6 +48,7 @@ main.cards section.card img{
 }
 
 main.cards section.card h3{
+    font-size: 100%;
     margin: 16px 0;
 }
 
